@@ -1,15 +1,17 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "@hotwired/turbo-rails"
-import "controllers"
+import  { Provider } from 'react-redux';
+import { store } from './store';
+import App from './App';
 
 
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+
+
 
 ReactDOM.render(
-  <App/>,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root'),
 );
