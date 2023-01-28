@@ -1,14 +1,11 @@
 # Hello World
-<a name="readme-top"></a>
-<div align="center">
-  <img src="https://github.com/microverseinc/readme-template/raw/master/murple_logo.png" alt="logo" width="140"  height="auto" />
-</div>
+
 
 # 📗 Table of Contents
 
-- [Budget-App](#)
+- [React on Rails](#)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Budget-App ](#-Hello World-)
+- [📖 Hello-World ](#-Hello World-)
   - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [Key Features ](#key-features-)

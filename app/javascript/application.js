@@ -1,17 +1,16 @@
-// Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import React from 'react';
-import ReactDOM from 'react-dom';
-import  { Provider } from 'react-redux';
-import { store } from './store';
-import App from './App';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import App from "./components/App";
+import store from "./redux/store";
 
-
-
-
-
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root'),
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>
 );
+
