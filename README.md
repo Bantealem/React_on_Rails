@@ -3,9 +3,9 @@
 
 # 📗 Table of Contents
 
-- [React on Rails](#)
+- [rails\_with\_react](#rails_with_react)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello-World ](#-Hello World-)
+- [📖 rails\_with\_react ](#-rails_with_react-)
   - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [Key Features ](#key-features-)
@@ -13,25 +13,23 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Btracker <a name="about-project"></a>
+# 📖 Hello World <a name="about-project"></a>
 
-This project is about building a web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+This is a demo project to setup rails with react freamwork. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - Ruby
 - Rails 
 - HTML
-- SCSS
-- Bootstrap
+- JSX
+- React
 ## Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
@@ -39,7 +37,8 @@ This project is about building a web application where you can manage your budge
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML, JavaScript, and CSS</li>
+        <li><a href="https://reactjs.org//">React</a></li>
+
   </ul>
 </details>
 
@@ -61,7 +60,7 @@ This project is about building a web application where you can manage your budge
 
 > The key features of this app.
 
-- AAA
+- **Redux as a state management**
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -70,8 +69,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to:
-run `bunlder install`
+In order to install required gems:
+`RUN bunlder install`
+
+In order to install required dependencies
+`RUN yarn install`
 
 ### Setup
 
@@ -79,45 +81,31 @@ Clone this repository to your desired folder:
 
 `https://github.com/Bantealem/Hello_World.git`
 
-cd `Budget-app`
+cd `Hello_World`
 
 ### Usage
 
 To run the project, execute the following command:
 
-`rails server` or `rails s`
-
-### Run tests
-
-To run tests, run the following command:
- 
-
-`Rspec spec`
-
-
-
+`dev/bin` 
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 Bantealem Geto
+
 - GitHub: [Bantealem](https://github.com/Bantealem)
 - Twitter: [Bantealem](https://twitter.com/BantealemG)
 - LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
 
-
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> In the future I need to improve the following features.
-
-- [ ] **Add Google, Github and Twitter authentication.**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page.](https://github.com/Bantealem/Budget-app.git/issues)
+Feel free to check the [issues page.](https://github.com/Bantealem/Hello_World/issues)
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -129,6 +117,6 @@ I would like to thank Microverse for the project guidelines.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](https://github.com/Bantealem/hello-react-front-end/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
